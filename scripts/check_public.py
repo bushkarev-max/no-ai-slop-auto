@@ -27,7 +27,7 @@ def findings(text):
                 found.append((number, category))
         for url in re.findall(r'https?://[^\s<>"\')]+', line):
             if 'github.com/' in url and not re.match(
-                r'https://github\.com/bushkarev-max/no-ai-slop(?:[/.#?]|$)', url
+                r'https://github\.com/bushkarev-max/no-ai-slop-auto(?:[/.#?]|$)', url
             ):
                 found.append((number, 'unapproved-github-url'))
     return found

@@ -1,13 +1,13 @@
 {
   "schema_version": 4,
   "project_id": "no-ai-slop",
-  "repository": "bushkarev-max/no-ai-slop",
+  "repository": "bushkarev-max/no-ai-slop-auto",
   "spec": {
-    "repository": "bushkarev-max/no-ai-slop",
+    "repository": "bushkarev-max/no-ai-slop-auto",
     "path": "MASTER-SPEC.md"
   },
   "issues": {
-    "repository": "bushkarev-max/no-ai-slop"
+    "repository": "bushkarev-max/no-ai-slop-auto"
   },
   "context": {
     "readme": "README.md",

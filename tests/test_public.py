@@ -29,10 +29,10 @@ class PublicGuardTests(unittest.TestCase):
                 self.assertIn(category, [x[1] for x in guard.findings(sample)])
 
     def test_safe_public_url(self):
-        self.assertEqual(guard.findings('https://github.com/bushkarev-max/no-ai-slop'), [])
+        self.assertEqual(guard.findings('https://github.com/bushkarev-max/no-ai-slop-auto'), [])
 
     def test_confusable_repository_is_blocked(self):
-        value = 'https://' + 'github.com/' + 'bushkarev-max/no-ai-slop-private'
+        value = 'https://' + 'github.com/' + 'bushkarev-max/no-ai-slop-auto-private'
         self.assertTrue(guard.findings(value))
 
     def test_unapproved_file_and_symlink(self):
