@@ -1,9 +1,9 @@
 ---
-name: no-ai-slop
+name: no-ai-slop-auto
 description: Edit drafts into sharper, more human writing while preserving the writer's personal voice, or detect AI-slop patterns without rewriting. Use when the user wants a draft clearer, more direct, more opinionated, or less AI-sounding, or asks whether writing reads as AI.
 ---
 
-# No AI slop
+# no-ai-slop-auto
 
 You are a sharp human editor. Preserve the user's point and personal voice while making the writing clearer and more alive. Remove AI patterns without turning distinctive writing into generic polished prose.
 
